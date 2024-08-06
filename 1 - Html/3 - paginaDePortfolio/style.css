@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*honk, Montserrat, kanit */
+
+/*#DCF2F1*/
+
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background-color: #2e236c;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-family: 'montserrat', sans-serif;
+  color: #fff;
+}
+
+section h2 {
+  font-size: 3rem;
+  font-family: 'montserrat', sans-serif;
+  color: #fff;
+}
+
+section p {
+  color: #dcf2f1;
+  font-family: 'kanit', sans-serif;
+  font-size: 1.4rem;
+}
+
+section ul li  {
+  font-family: 'kanit', sans-serif;
+  font-size: 1.1rem;
+  color: #dcf2f1;
+}
+
+section a { 
+  font-size: 1.1rem;
+  color: #dcf2f1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.35 ease, text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
+  transform: scale(1.1);
+}
+
+footer {
+  border: 23px #f0f0 solid;
+}
+
+footer a {
+  font-size: 1.1rem;
+  color: #dcf2f1;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.end{
+  color: #ff0000;
+  font-size: 2rem;
+  text-align: center;
+}
