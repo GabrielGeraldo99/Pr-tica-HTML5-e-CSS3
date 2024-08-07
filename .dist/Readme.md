@@ -1,1 +1,0 @@
-Olá a todos, aqui ficara os meus projetos iniciais, vou começar a práticar e vou armazenar eles por aqui.
