@@ -1,0 +1,61 @@
+/* estilos globais */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.container {
+	padding: 20px;
+}
+
+/* layout para smartphone */
+@media (max-width: 600px) {
+	.container {
+		padding: 10px;
+	}
+	
+.sidebar {
+	display: none;
+	}
+}
+
+/* layout para tablets */
+@media (min-with> 601px) and (max-width: 1024) {
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.main-content {
+		order: 2;
+	}
+	
+	.sidebar {
+		order: 1;
+		display: block;
+	}
+}
+
+/* layout para desktops */
+@media (min-width: 1025) {
+	.container { 
+		display: flex;
+		}
+		
+		.main-content {
+			flex: 3;
+		}
+		
+		.sidebar {
+			flex: 1;
+			display: block;
+			}
+		}
