@@ -33,6 +33,7 @@ body {
   background-image: url(../img/logo2.png);
   background-repeat: no-repeat;
   background-position: left;
+  background-size: 20rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,14 +47,13 @@ body {
   flex: 1;
   text-align: center;
   margin-right: auto;
-  margin-left: 17.7rem;
-  font-size: 3.2rem;
+  margin-left: 20.4rem;
+  font-size: 5.2rem;
 }
 
 .nav-bar ul {
   display: flex;
   margin: 0;
-
   list-style: none;
 }
 .nav-bar ul li {
@@ -61,9 +61,9 @@ body {
 }
 
 .nav-bar a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #040d12;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
   cursor: pointer;
   transition: 0.2s;
@@ -78,10 +78,10 @@ a:hover {
 /* Main */
 
 .main-principal {
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 2rem;
   display: grid;
   justify-content: center;
-  padding: -2rem;
+  padding: 2rem;
 }
 
 .button-main {
@@ -100,7 +100,7 @@ a:hover {
 
 h2 {
   margin-left: 2rem;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-family: 'Merriweather', sans-serif;
 }
 section {
@@ -122,12 +122,13 @@ section:hover {
   background: linear-gradient(90deg, rgba(245,247,248,1) 11%, rgba(233,245,245,1) 35%, rgba(238,245,255,1) 81%);
   border: 0.6rem solid #040d12;
   gap: 1rem;
+  border-radius: 1rem;
 }
 
 .top h3 {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .top-content {
@@ -152,8 +153,9 @@ section:hover {
 }
 
 .main-text {
-  font-size: 1.8rem;
-  font-family: "Roboto", sans-serif ;
+  font-size: 2.3rem;
+  font-family: 'Roboto', sans-serif ;
+  text-align: justify;
 }
 
 /* footer */
@@ -186,7 +188,7 @@ section:hover {
 .footer-links a {
   font-family: "Open Sans", sans-serif;
   color: #040d12;
-  font-size: 1.5rem;
+  font-size: 2.1rem;
   text-decoration: none;
   cursor: pointer;
   transition: 0.2s;
@@ -200,15 +202,15 @@ section:hover {
 .social-icon {
   margin: 0 0.5rem;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 2.5rem;
   transition: 0.2s;
   cursor: pointer;
 }
 
 
 .footer-bottom {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
   color: #040d12;
 }
 
